@@ -1,0 +1,1471 @@
+﻿Group,Task,Run,Item,Desc,Passed
+A,1,1,1-1,PO 연결 필수,True
+A,1,1,1-2,2단계 프로세스,True
+A,1,1,1-3,초과입고 제한 로직,True
+A,1,1,1-4,초과입고 거부 응답,True
+A,1,1,1-5,재고 반영 시점 (confirmed),True
+A,1,1,1-6,유통기한 필수 체크,False
+A,1,1,1-7,유통기한 비관리 처리,False
+A,1,1,1-8,received_qty 누적,True
+A,1,1,1-9,PO 상태 completed,True
+A,1,1,1-10,PO 상태 partial,True
+A,1,1,1-11,location.current_qty 갱신,True
+A,1,1,1-12,입고 거부 시 무변동,True
+A,1,1,1-13,카테고리별 초과율 차등,True
+A,1,1,1-14,HAZMAT 0% 예외 없음,True
+A,1,1,1-15,PO유형 가중치,True
+A,1,1,1-16,성수기 가중치,True
+A,1,1,1-17,manufacture_date 필수,True
+A,1,1,1-18,잔여율 < 30% 거부,True
+A,1,1,1-19,잔여율 30~50% 승인 필요,True
+A,1,1,1-20,보관유형 호환 체크,True
+A,1,1,1-21,HAZMAT zone 체크,True
+A,1,1,1-22,실사 동결 로케이션 거부,True
+A,1,1,1-23,페널티 기록 (OVER_DELIVERY),True
+A,1,1,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+A,1,1,1-25,페널티 3회 → PO hold,True
+A,1,2,1-1,PO 연결 필수,True
+A,1,2,1-2,2단계 프로세스,True
+A,1,2,1-3,초과입고 제한 로직,True
+A,1,2,1-4,초과입고 거부 응답,True
+A,1,2,1-5,재고 반영 시점 (confirmed),True
+A,1,2,1-6,유통기한 필수 체크,False
+A,1,2,1-7,유통기한 비관리 처리,False
+A,1,2,1-8,received_qty 누적,False
+A,1,2,1-9,PO 상태 completed,True
+A,1,2,1-10,PO 상태 partial,True
+A,1,2,1-11,location.current_qty 갱신,True
+A,1,2,1-12,입고 거부 시 무변동,True
+A,1,2,1-13,카테고리별 초과율 차등,True
+A,1,2,1-14,HAZMAT 0% 예외 없음,True
+A,1,2,1-15,PO유형 가중치,True
+A,1,2,1-16,성수기 가중치,True
+A,1,2,1-17,manufacture_date 필수,True
+A,1,2,1-18,잔여율 < 30% 거부,True
+A,1,2,1-19,잔여율 30~50% 승인 필요,True
+A,1,2,1-20,보관유형 호환 체크,True
+A,1,2,1-21,HAZMAT zone 체크,True
+A,1,2,1-22,실사 동결 로케이션 거부,True
+A,1,2,1-23,페널티 기록 (OVER_DELIVERY),True
+A,1,2,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+A,1,2,1-25,페널티 3회 → PO hold,True
+A,1,3,1-1,PO 연결 필수,False
+A,1,3,1-2,2단계 프로세스,True
+A,1,3,1-3,초과입고 제한 로직,True
+A,1,3,1-4,초과입고 거부 응답,True
+A,1,3,1-5,재고 반영 시점 (confirmed),True
+A,1,3,1-6,유통기한 필수 체크,True
+A,1,3,1-7,유통기한 비관리 처리,True
+A,1,3,1-8,received_qty 누적,False
+A,1,3,1-9,PO 상태 completed,True
+A,1,3,1-10,PO 상태 partial,True
+A,1,3,1-11,location.current_qty 갱신,True
+A,1,3,1-12,입고 거부 시 무변동,True
+A,1,3,1-13,카테고리별 초과율 차등,True
+A,1,3,1-14,HAZMAT 0% 예외 없음,True
+A,1,3,1-15,PO유형 가중치,True
+A,1,3,1-16,성수기 가중치,True
+A,1,3,1-17,manufacture_date 필수,True
+A,1,3,1-18,잔여율 < 30% 거부,True
+A,1,3,1-19,잔여율 30~50% 승인 필요,True
+A,1,3,1-20,보관유형 호환 체크,True
+A,1,3,1-21,HAZMAT zone 체크,True
+A,1,3,1-22,실사 동결 로케이션 거부,False
+A,1,3,1-23,페널티 기록 (OVER_DELIVERY),True
+A,1,3,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+A,1,3,1-25,페널티 3회 → PO hold,True
+A,1,4,1-1,PO 연결 필수,True
+A,1,4,1-2,2단계 프로세스,False
+A,1,4,1-3,초과입고 제한 로직,False
+A,1,4,1-4,초과입고 거부 응답,False
+A,1,4,1-5,재고 반영 시점 (confirmed),False
+A,1,4,1-6,유통기한 필수 체크,False
+A,1,4,1-7,유통기한 비관리 처리,True
+A,1,4,1-8,received_qty 누적,False
+A,1,4,1-9,PO 상태 completed,True
+A,1,4,1-10,PO 상태 partial,True
+A,1,4,1-11,location.current_qty 갱신,False
+A,1,4,1-12,입고 거부 시 무변동,True
+A,1,4,1-13,카테고리별 초과율 차등,True
+A,1,4,1-14,HAZMAT 0% 예외 없음,True
+A,1,4,1-15,PO유형 가중치,True
+A,1,4,1-16,성수기 가중치,True
+A,1,4,1-17,manufacture_date 필수,False
+A,1,4,1-18,잔여율 < 30% 거부,True
+A,1,4,1-19,잔여율 30~50% 승인 필요,False
+A,1,4,1-20,보관유형 호환 체크,True
+A,1,4,1-21,HAZMAT zone 체크,True
+A,1,4,1-22,실사 동결 로케이션 거부,False
+A,1,4,1-23,페널티 기록 (OVER_DELIVERY),True
+A,1,4,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+A,1,4,1-25,페널티 3회 → PO hold,True
+A,1,5,1-1,PO 연결 필수,True
+A,1,5,1-2,2단계 프로세스,True
+A,1,5,1-3,초과입고 제한 로직,True
+A,1,5,1-4,초과입고 거부 응답,True
+A,1,5,1-5,재고 반영 시점 (confirmed),True
+A,1,5,1-6,유통기한 필수 체크,True
+A,1,5,1-7,유통기한 비관리 처리,True
+A,1,5,1-8,received_qty 누적,False
+A,1,5,1-9,PO 상태 completed,True
+A,1,5,1-10,PO 상태 partial,True
+A,1,5,1-11,location.current_qty 갱신,True
+A,1,5,1-12,입고 거부 시 무변동,True
+A,1,5,1-13,카테고리별 초과율 차등,True
+A,1,5,1-14,HAZMAT 0% 예외 없음,True
+A,1,5,1-15,PO유형 가중치,True
+A,1,5,1-16,성수기 가중치,True
+A,1,5,1-17,manufacture_date 필수,True
+A,1,5,1-18,잔여율 < 30% 거부,True
+A,1,5,1-19,잔여율 30~50% 승인 필요,True
+A,1,5,1-20,보관유형 호환 체크,True
+A,1,5,1-21,HAZMAT zone 체크,True
+A,1,5,1-22,실사 동결 로케이션 거부,True
+A,1,5,1-23,페널티 기록 (OVER_DELIVERY),True
+A,1,5,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+A,1,5,1-25,페널티 3회 → PO hold,True
+A,2,1,2-1,FIFO 적용,True
+A,2,1,2-2,FEFO 우선 적용,True
+A,2,1,2-3,FEFO 동률 시 FIFO,True
+A,2,1,2-4,분할 피킹,True
+A,2,1,2-5,만료 재고 제외,True
+A,2,1,2-6,부분출고,True
+A,2,1,2-7,백오더 자동 생성,True
+A,2,1,2-8,picked_qty 기록,True
+A,2,1,2-9,부분출고 상태 partial,True
+A,2,1,2-10,전량 백오더,True
+A,2,1,2-11,inventory.quantity 차감,True
+A,2,1,2-12,location.current_qty 차감,True
+A,2,1,2-13,피킹 상세 반환,False
+A,2,1,2-14,출고 완료 shipped,True
+A,2,1,2-15,is_expired 재고 제외,True
+A,2,1,2-16,실사 동결 로케이션 제외,True
+A,2,1,2-17,잔여율 < 30% 최우선 출고,True
+A,2,1,2-18,잔여율 < 10% 출고 불가,False
+A,2,1,2-19,HAZMAT zone 전용 피킹,True
+A,2,1,2-20,max_pick_qty 제한,True
+A,2,1,2-21,HAZMAT+FRESH 분리 출고,True
+A,2,1,2-22,부분출고 70% 기준,True
+A,2,1,2-23,긴급발주 트리거 (30~70%),True
+A,2,1,2-24,전량 백오더 (< 30%),True
+A,2,1,2-25,안전재고 체크,True
+A,2,1,2-26,안전재고 트리거 기록,True
+A,2,1,2-27,보관유형 불일치 경고,True
+A,2,1,2-28,피킹 응답에 backorder 포함,True
+A,2,2,2-1,FIFO 적용,True
+A,2,2,2-2,FEFO 우선 적용,True
+A,2,2,2-3,FEFO 동률 시 FIFO,True
+A,2,2,2-4,분할 피킹,True
+A,2,2,2-5,만료 재고 제외,True
+A,2,2,2-6,부분출고,True
+A,2,2,2-7,백오더 자동 생성,True
+A,2,2,2-8,picked_qty 기록,True
+A,2,2,2-9,부분출고 상태 partial,True
+A,2,2,2-10,전량 백오더,True
+A,2,2,2-11,inventory.quantity 차감,True
+A,2,2,2-12,location.current_qty 차감,False
+A,2,2,2-13,피킹 상세 반환,False
+A,2,2,2-14,출고 완료 shipped,True
+A,2,2,2-15,is_expired 재고 제외,False
+A,2,2,2-16,실사 동결 로케이션 제외,True
+A,2,2,2-17,잔여율 < 30% 최우선 출고,True
+A,2,2,2-18,잔여율 < 10% 출고 불가,False
+A,2,2,2-19,HAZMAT zone 전용 피킹,True
+A,2,2,2-20,max_pick_qty 제한,True
+A,2,2,2-21,HAZMAT+FRESH 분리 출고,True
+A,2,2,2-22,부분출고 70% 기준,True
+A,2,2,2-23,긴급발주 트리거 (30~70%),True
+A,2,2,2-24,전량 백오더 (< 30%),True
+A,2,2,2-25,안전재고 체크,True
+A,2,2,2-26,안전재고 트리거 기록,True
+A,2,2,2-27,보관유형 불일치 경고,True
+A,2,2,2-28,피킹 응답에 backorder 포함,True
+A,2,3,2-1,FIFO 적용,True
+A,2,3,2-2,FEFO 우선 적용,True
+A,2,3,2-3,FEFO 동률 시 FIFO,True
+A,2,3,2-4,분할 피킹,True
+A,2,3,2-5,만료 재고 제외,True
+A,2,3,2-6,부분출고,True
+A,2,3,2-7,백오더 자동 생성,True
+A,2,3,2-8,picked_qty 기록,True
+A,2,3,2-9,부분출고 상태 partial,True
+A,2,3,2-10,전량 백오더,True
+A,2,3,2-11,inventory.quantity 차감,True
+A,2,3,2-12,location.current_qty 차감,False
+A,2,3,2-13,피킹 상세 반환,False
+A,2,3,2-14,출고 완료 shipped,True
+A,2,3,2-15,is_expired 재고 제외,False
+A,2,3,2-16,실사 동결 로케이션 제외,True
+A,2,3,2-17,잔여율 < 30% 최우선 출고,True
+A,2,3,2-18,잔여율 < 10% 출고 불가,True
+A,2,3,2-19,HAZMAT zone 전용 피킹,True
+A,2,3,2-20,max_pick_qty 제한,True
+A,2,3,2-21,HAZMAT+FRESH 분리 출고,True
+A,2,3,2-22,부분출고 70% 기준,True
+A,2,3,2-23,긴급발주 트리거 (30~70%),True
+A,2,3,2-24,전량 백오더 (< 30%),True
+A,2,3,2-25,안전재고 체크,True
+A,2,3,2-26,안전재고 트리거 기록,True
+A,2,3,2-27,보관유형 불일치 경고,True
+A,2,3,2-28,피킹 응답에 backorder 포함,True
+A,2,4,2-1,FIFO 적용,True
+A,2,4,2-2,FEFO 우선 적용,True
+A,2,4,2-3,FEFO 동률 시 FIFO,True
+A,2,4,2-4,분할 피킹,True
+A,2,4,2-5,만료 재고 제외,True
+A,2,4,2-6,부분출고,True
+A,2,4,2-7,백오더 자동 생성,True
+A,2,4,2-8,picked_qty 기록,True
+A,2,4,2-9,부분출고 상태 partial,True
+A,2,4,2-10,전량 백오더,True
+A,2,4,2-11,inventory.quantity 차감,True
+A,2,4,2-12,location.current_qty 차감,True
+A,2,4,2-13,피킹 상세 반환,False
+A,2,4,2-14,출고 완료 shipped,True
+A,2,4,2-15,is_expired 재고 제외,False
+A,2,4,2-16,실사 동결 로케이션 제외,True
+A,2,4,2-17,잔여율 < 30% 최우선 출고,True
+A,2,4,2-18,잔여율 < 10% 출고 불가,False
+A,2,4,2-19,HAZMAT zone 전용 피킹,True
+A,2,4,2-20,max_pick_qty 제한,True
+A,2,4,2-21,HAZMAT+FRESH 분리 출고,True
+A,2,4,2-22,부분출고 70% 기준,True
+A,2,4,2-23,긴급발주 트리거 (30~70%),True
+A,2,4,2-24,전량 백오더 (< 30%),True
+A,2,4,2-25,안전재고 체크,True
+A,2,4,2-26,안전재고 트리거 기록,True
+A,2,4,2-27,보관유형 불일치 경고,True
+A,2,4,2-28,피킹 응답에 backorder 포함,True
+A,2,5,2-1,FIFO 적용,True
+A,2,5,2-2,FEFO 우선 적용,True
+A,2,5,2-3,FEFO 동률 시 FIFO,True
+A,2,5,2-4,분할 피킹,True
+A,2,5,2-5,만료 재고 제외,True
+A,2,5,2-6,부분출고,True
+A,2,5,2-7,백오더 자동 생성,True
+A,2,5,2-8,picked_qty 기록,True
+A,2,5,2-9,부분출고 상태 partial,True
+A,2,5,2-10,전량 백오더,True
+A,2,5,2-11,inventory.quantity 차감,True
+A,2,5,2-12,location.current_qty 차감,False
+A,2,5,2-13,피킹 상세 반환,False
+A,2,5,2-14,출고 완료 shipped,True
+A,2,5,2-15,is_expired 재고 제외,False
+A,2,5,2-16,실사 동결 로케이션 제외,True
+A,2,5,2-17,잔여율 < 30% 최우선 출고,True
+A,2,5,2-18,잔여율 < 10% 출고 불가,False
+A,2,5,2-19,HAZMAT zone 전용 피킹,True
+A,2,5,2-20,max_pick_qty 제한,True
+A,2,5,2-21,HAZMAT+FRESH 분리 출고,True
+A,2,5,2-22,부분출고 70% 기준,True
+A,2,5,2-23,긴급발주 트리거 (30~70%),True
+A,2,5,2-24,전량 백오더 (< 30%),True
+A,2,5,2-25,안전재고 체크,True
+A,2,5,2-26,안전재고 트리거 기록,True
+A,2,5,2-27,보관유형 불일치 경고,True
+A,2,5,2-28,피킹 응답에 backorder 포함,True
+A,3,1,3-1,단일 트랜잭션,True
+A,3,1,3-2,롤백 처리,True
+A,3,1,3-3,동일 로케이션 거부,True
+A,3,1,3-4,출발지 재고 부족 체크,True
+A,3,1,3-5,도착지 용량 체크,True
+A,3,1,3-6,출발지 location.current_qty 차감,True
+A,3,1,3-7,도착지 location.current_qty 증가,True
+A,3,1,3-8,기존 레코드 병합,True
+A,3,1,3-9,received_at 보존,False
+A,3,1,3-10,이력 기록,True
+A,3,1,3-11,실사 동결 체크 (출발지),True
+A,3,1,3-12,실사 동결 체크 (도착지),True
+A,3,1,3-13,보관유형 호환 체크,True
+A,3,1,3-14,HAZMAT zone 체크,True
+A,3,1,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+A,3,1,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+A,3,1,3-17,유통기한 < 10% 이동 제한,True
+A,3,1,3-18,유통기한 만료 이동 불가,True
+A,3,1,3-19,대량 이동 승인 (80%),True
+A,3,1,3-20,안전재고 체크,True
+A,3,2,3-1,단일 트랜잭션,True
+A,3,2,3-2,롤백 처리,True
+A,3,2,3-3,동일 로케이션 거부,True
+A,3,2,3-4,출발지 재고 부족 체크,True
+A,3,2,3-5,도착지 용량 체크,True
+A,3,2,3-6,출발지 location.current_qty 차감,True
+A,3,2,3-7,도착지 location.current_qty 증가,True
+A,3,2,3-8,기존 레코드 병합,True
+A,3,2,3-9,received_at 보존,False
+A,3,2,3-10,이력 기록,True
+A,3,2,3-11,실사 동결 체크 (출발지),True
+A,3,2,3-12,실사 동결 체크 (도착지),True
+A,3,2,3-13,보관유형 호환 체크,True
+A,3,2,3-14,HAZMAT zone 체크,True
+A,3,2,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+A,3,2,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+A,3,2,3-17,유통기한 < 10% 이동 제한,True
+A,3,2,3-18,유통기한 만료 이동 불가,True
+A,3,2,3-19,대량 이동 승인 (80%),True
+A,3,2,3-20,안전재고 체크,True
+A,3,3,3-1,단일 트랜잭션,True
+A,3,3,3-2,롤백 처리,True
+A,3,3,3-3,동일 로케이션 거부,True
+A,3,3,3-4,출발지 재고 부족 체크,True
+A,3,3,3-5,도착지 용량 체크,True
+A,3,3,3-6,출발지 location.current_qty 차감,True
+A,3,3,3-7,도착지 location.current_qty 증가,True
+A,3,3,3-8,기존 레코드 병합,True
+A,3,3,3-9,received_at 보존,True
+A,3,3,3-10,이력 기록,True
+A,3,3,3-11,실사 동결 체크 (출발지),True
+A,3,3,3-12,실사 동결 체크 (도착지),True
+A,3,3,3-13,보관유형 호환 체크,True
+A,3,3,3-14,HAZMAT zone 체크,True
+A,3,3,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+A,3,3,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+A,3,3,3-17,유통기한 < 10% 이동 제한,True
+A,3,3,3-18,유통기한 만료 이동 불가,True
+A,3,3,3-19,대량 이동 승인 (80%),True
+A,3,3,3-20,안전재고 체크,True
+A,3,4,3-1,단일 트랜잭션,True
+A,3,4,3-2,롤백 처리,True
+A,3,4,3-3,동일 로케이션 거부,True
+A,3,4,3-4,출발지 재고 부족 체크,True
+A,3,4,3-5,도착지 용량 체크,True
+A,3,4,3-6,출발지 location.current_qty 차감,True
+A,3,4,3-7,도착지 location.current_qty 증가,True
+A,3,4,3-8,기존 레코드 병합,True
+A,3,4,3-9,received_at 보존,False
+A,3,4,3-10,이력 기록,True
+A,3,4,3-11,실사 동결 체크 (출발지),True
+A,3,4,3-12,실사 동결 체크 (도착지),True
+A,3,4,3-13,보관유형 호환 체크,True
+A,3,4,3-14,HAZMAT zone 체크,True
+A,3,4,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+A,3,4,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+A,3,4,3-17,유통기한 < 10% 이동 제한,True
+A,3,4,3-18,유통기한 만료 이동 불가,True
+A,3,4,3-19,대량 이동 승인 (80%),True
+A,3,4,3-20,안전재고 체크,True
+A,3,5,3-1,단일 트랜잭션,True
+A,3,5,3-2,롤백 처리,True
+A,3,5,3-3,동일 로케이션 거부,True
+A,3,5,3-4,출발지 재고 부족 체크,True
+A,3,5,3-5,도착지 용량 체크,True
+A,3,5,3-6,출발지 location.current_qty 차감,True
+A,3,5,3-7,도착지 location.current_qty 증가,True
+A,3,5,3-8,기존 레코드 병합,True
+A,3,5,3-9,received_at 보존,False
+A,3,5,3-10,이력 기록,True
+A,3,5,3-11,실사 동결 체크 (출발지),True
+A,3,5,3-12,실사 동결 체크 (도착지),True
+A,3,5,3-13,보관유형 호환 체크,True
+A,3,5,3-14,HAZMAT zone 체크,True
+A,3,5,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+A,3,5,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+A,3,5,3-17,유통기한 < 10% 이동 제한,True
+A,3,5,3-18,유통기한 만료 이동 불가,True
+A,3,5,3-19,대량 이동 승인 (80%),True
+A,3,5,3-20,안전재고 체크,True
+A,4,1,4-1,reason 필수,True
+A,4,1,4-2,차이 비율 계산,True
+A,4,1,4-3,자동 승인 로직,True
+A,4,1,4-4,자동 승인 즉시 반영,True
+A,4,1,4-5,>5% 승인 대기,True
+A,4,1,4-6,승인 전 미반영,True
+A,4,1,4-7,system_qty=0 승인 필요,True
+A,4,1,4-8,승인 후 반영,True
+A,4,1,4-9,거부 시 무변동,True
+A,4,1,4-10,location.current_qty 갱신,True
+A,4,1,4-11,DELETE 불가,True
+A,4,1,4-12,핵심 필드 UPDATE 불가,True
+A,4,1,4-13,GENERAL 임계치 ±5%,True
+A,4,1,4-14,FRESH 임계치 ±3%,True
+A,4,1,4-15,HAZMAT 임계치 ±1%,True
+A,4,1,4-16,HIGH_VALUE 자동승인 없음,True
+A,4,1,4-17,연속 조정 감시 조회,True
+A,4,1,4-18,연속 조정 → 승인 격상,True
+A,4,1,4-19,연속 조정 태그 추가,True
+A,4,1,4-20,HIGH_VALUE audit_logs 기록,True
+A,4,1,4-21,HIGH_VALUE 재실사 권고,False
+A,4,1,4-22,실사 시작 → is_frozen 설정,True
+A,4,1,4-23,실사 완료 → is_frozen 해제,True
+A,4,1,4-24,안전재고 체크,True
+A,4,1,4-25,안전재고 트리거 기록,True
+A,4,2,4-1,reason 필수,True
+A,4,2,4-2,차이 비율 계산,True
+A,4,2,4-3,자동 승인 로직,True
+A,4,2,4-4,자동 승인 즉시 반영,True
+A,4,2,4-5,>5% 승인 대기,True
+A,4,2,4-6,승인 전 미반영,True
+A,4,2,4-7,system_qty=0 승인 필요,True
+A,4,2,4-8,승인 후 반영,True
+A,4,2,4-9,거부 시 무변동,True
+A,4,2,4-10,location.current_qty 갱신,False
+A,4,2,4-11,DELETE 불가,True
+A,4,2,4-12,핵심 필드 UPDATE 불가,True
+A,4,2,4-13,GENERAL 임계치 ±5%,True
+A,4,2,4-14,FRESH 임계치 ±3%,True
+A,4,2,4-15,HAZMAT 임계치 ±1%,True
+A,4,2,4-16,HIGH_VALUE 자동승인 없음,True
+A,4,2,4-17,연속 조정 감시 조회,True
+A,4,2,4-18,연속 조정 → 승인 격상,True
+A,4,2,4-19,연속 조정 태그 추가,True
+A,4,2,4-20,HIGH_VALUE audit_logs 기록,True
+A,4,2,4-21,HIGH_VALUE 재실사 권고,False
+A,4,2,4-22,실사 시작 → is_frozen 설정,True
+A,4,2,4-23,실사 완료 → is_frozen 해제,True
+A,4,2,4-24,안전재고 체크,True
+A,4,2,4-25,안전재고 트리거 기록,True
+A,4,3,4-1,reason 필수,True
+A,4,3,4-2,차이 비율 계산,True
+A,4,3,4-3,자동 승인 로직,True
+A,4,3,4-4,자동 승인 즉시 반영,True
+A,4,3,4-5,>5% 승인 대기,True
+A,4,3,4-6,승인 전 미반영,True
+A,4,3,4-7,system_qty=0 승인 필요,True
+A,4,3,4-8,승인 후 반영,True
+A,4,3,4-9,거부 시 무변동,True
+A,4,3,4-10,location.current_qty 갱신,False
+A,4,3,4-11,DELETE 불가,True
+A,4,3,4-12,핵심 필드 UPDATE 불가,True
+A,4,3,4-13,GENERAL 임계치 ±5%,True
+A,4,3,4-14,FRESH 임계치 ±3%,True
+A,4,3,4-15,HAZMAT 임계치 ±1%,True
+A,4,3,4-16,HIGH_VALUE 자동승인 없음,True
+A,4,3,4-17,연속 조정 감시 조회,True
+A,4,3,4-18,연속 조정 → 승인 격상,True
+A,4,3,4-19,연속 조정 태그 추가,True
+A,4,3,4-20,HIGH_VALUE audit_logs 기록,True
+A,4,3,4-21,HIGH_VALUE 재실사 권고,False
+A,4,3,4-22,실사 시작 → is_frozen 설정,True
+A,4,3,4-23,실사 완료 → is_frozen 해제,True
+A,4,3,4-24,안전재고 체크,True
+A,4,3,4-25,안전재고 트리거 기록,True
+A,4,4,4-1,reason 필수,True
+A,4,4,4-2,차이 비율 계산,True
+A,4,4,4-3,자동 승인 로직,True
+A,4,4,4-4,자동 승인 즉시 반영,True
+A,4,4,4-5,>5% 승인 대기,True
+A,4,4,4-6,승인 전 미반영,True
+A,4,4,4-7,system_qty=0 승인 필요,True
+A,4,4,4-8,승인 후 반영,True
+A,4,4,4-9,거부 시 무변동,True
+A,4,4,4-10,location.current_qty 갱신,True
+A,4,4,4-11,DELETE 불가,True
+A,4,4,4-12,핵심 필드 UPDATE 불가,True
+A,4,4,4-13,GENERAL 임계치 ±5%,True
+A,4,4,4-14,FRESH 임계치 ±3%,True
+A,4,4,4-15,HAZMAT 임계치 ±1%,True
+A,4,4,4-16,HIGH_VALUE 자동승인 없음,True
+A,4,4,4-17,연속 조정 감시 조회,True
+A,4,4,4-18,연속 조정 → 승인 격상,True
+A,4,4,4-19,연속 조정 태그 추가,True
+A,4,4,4-20,HIGH_VALUE audit_logs 기록,True
+A,4,4,4-21,HIGH_VALUE 재실사 권고,False
+A,4,4,4-22,실사 시작 → is_frozen 설정,True
+A,4,4,4-23,실사 완료 → is_frozen 해제,True
+A,4,4,4-24,안전재고 체크,True
+A,4,4,4-25,안전재고 트리거 기록,True
+A,4,5,4-1,reason 필수,True
+A,4,5,4-2,차이 비율 계산,True
+A,4,5,4-3,자동 승인 로직,True
+A,4,5,4-4,자동 승인 즉시 반영,True
+A,4,5,4-5,>5% 승인 대기,True
+A,4,5,4-6,승인 전 미반영,True
+A,4,5,4-7,system_qty=0 승인 필요,True
+A,4,5,4-8,승인 후 반영,True
+A,4,5,4-9,거부 시 무변동,True
+A,4,5,4-10,location.current_qty 갱신,True
+A,4,5,4-11,DELETE 불가,True
+A,4,5,4-12,핵심 필드 UPDATE 불가,False
+A,4,5,4-13,GENERAL 임계치 ±5%,True
+A,4,5,4-14,FRESH 임계치 ±3%,True
+A,4,5,4-15,HAZMAT 임계치 ±1%,True
+A,4,5,4-16,HIGH_VALUE 자동승인 없음,True
+A,4,5,4-17,연속 조정 감시 조회,True
+A,4,5,4-18,연속 조정 → 승인 격상,True
+A,4,5,4-19,연속 조정 태그 추가,True
+A,4,5,4-20,HIGH_VALUE audit_logs 기록,True
+A,4,5,4-21,HIGH_VALUE 재실사 권고,False
+A,4,5,4-22,실사 시작 → is_frozen 설정,True
+A,4,5,4-23,실사 완료 → is_frozen 해제,True
+A,4,5,4-24,안전재고 체크,True
+A,4,5,4-25,안전재고 트리거 기록,True
+B,1,1,1-1,PO 연결 필수,True
+B,1,1,1-2,2단계 프로세스,True
+B,1,1,1-3,초과입고 제한 로직,True
+B,1,1,1-4,초과입고 거부 응답,True
+B,1,1,1-5,재고 반영 시점 (confirmed),True
+B,1,1,1-6,유통기한 필수 체크,False
+B,1,1,1-7,유통기한 비관리 처리,True
+B,1,1,1-8,received_qty 누적,True
+B,1,1,1-9,PO 상태 completed,True
+B,1,1,1-10,PO 상태 partial,True
+B,1,1,1-11,location.current_qty 갱신,True
+B,1,1,1-12,입고 거부 시 무변동,True
+B,1,1,1-13,카테고리별 초과율 차등,True
+B,1,1,1-14,HAZMAT 0% 예외 없음,True
+B,1,1,1-15,PO유형 가중치,True
+B,1,1,1-16,성수기 가중치,True
+B,1,1,1-17,manufacture_date 필수,True
+B,1,1,1-18,잔여율 < 30% 거부,True
+B,1,1,1-19,잔여율 30~50% 승인 필요,False
+B,1,1,1-20,보관유형 호환 체크,True
+B,1,1,1-21,HAZMAT zone 체크,True
+B,1,1,1-22,실사 동결 로케이션 거부,False
+B,1,1,1-23,페널티 기록 (OVER_DELIVERY),True
+B,1,1,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+B,1,1,1-25,페널티 3회 → PO hold,True
+B,1,2,1-1,PO 연결 필수,True
+B,1,2,1-2,2단계 프로세스,True
+B,1,2,1-3,초과입고 제한 로직,True
+B,1,2,1-4,초과입고 거부 응답,True
+B,1,2,1-5,재고 반영 시점 (confirmed),True
+B,1,2,1-6,유통기한 필수 체크,True
+B,1,2,1-7,유통기한 비관리 처리,True
+B,1,2,1-8,received_qty 누적,True
+B,1,2,1-9,PO 상태 completed,True
+B,1,2,1-10,PO 상태 partial,True
+B,1,2,1-11,location.current_qty 갱신,True
+B,1,2,1-12,입고 거부 시 무변동,True
+B,1,2,1-13,카테고리별 초과율 차등,True
+B,1,2,1-14,HAZMAT 0% 예외 없음,True
+B,1,2,1-15,PO유형 가중치,True
+B,1,2,1-16,성수기 가중치,True
+B,1,2,1-17,manufacture_date 필수,True
+B,1,2,1-18,잔여율 < 30% 거부,True
+B,1,2,1-19,잔여율 30~50% 승인 필요,True
+B,1,2,1-20,보관유형 호환 체크,True
+B,1,2,1-21,HAZMAT zone 체크,True
+B,1,2,1-22,실사 동결 로케이션 거부,True
+B,1,2,1-23,페널티 기록 (OVER_DELIVERY),True
+B,1,2,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+B,1,2,1-25,페널티 3회 → PO hold,True
+B,1,3,1-1,PO 연결 필수,True
+B,1,3,1-2,2단계 프로세스,True
+B,1,3,1-3,초과입고 제한 로직,True
+B,1,3,1-4,초과입고 거부 응답,True
+B,1,3,1-5,재고 반영 시점 (confirmed),True
+B,1,3,1-6,유통기한 필수 체크,False
+B,1,3,1-7,유통기한 비관리 처리,True
+B,1,3,1-8,received_qty 누적,True
+B,1,3,1-9,PO 상태 completed,True
+B,1,3,1-10,PO 상태 partial,True
+B,1,3,1-11,location.current_qty 갱신,True
+B,1,3,1-12,입고 거부 시 무변동,True
+B,1,3,1-13,카테고리별 초과율 차등,True
+B,1,3,1-14,HAZMAT 0% 예외 없음,True
+B,1,3,1-15,PO유형 가중치,True
+B,1,3,1-16,성수기 가중치,True
+B,1,3,1-17,manufacture_date 필수,True
+B,1,3,1-18,잔여율 < 30% 거부,True
+B,1,3,1-19,잔여율 30~50% 승인 필요,True
+B,1,3,1-20,보관유형 호환 체크,True
+B,1,3,1-21,HAZMAT zone 체크,True
+B,1,3,1-22,실사 동결 로케이션 거부,True
+B,1,3,1-23,페널티 기록 (OVER_DELIVERY),True
+B,1,3,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+B,1,3,1-25,페널티 3회 → PO hold,True
+B,1,4,1-1,PO 연결 필수,True
+B,1,4,1-2,2단계 프로세스,False
+B,1,4,1-3,초과입고 제한 로직,False
+B,1,4,1-4,초과입고 거부 응답,False
+B,1,4,1-5,재고 반영 시점 (confirmed),False
+B,1,4,1-6,유통기한 필수 체크,False
+B,1,4,1-7,유통기한 비관리 처리,True
+B,1,4,1-8,received_qty 누적,False
+B,1,4,1-9,PO 상태 completed,True
+B,1,4,1-10,PO 상태 partial,True
+B,1,4,1-11,location.current_qty 갱신,False
+B,1,4,1-12,입고 거부 시 무변동,True
+B,1,4,1-13,카테고리별 초과율 차등,False
+B,1,4,1-14,HAZMAT 0% 예외 없음,False
+B,1,4,1-15,PO유형 가중치,False
+B,1,4,1-16,성수기 가중치,True
+B,1,4,1-17,manufacture_date 필수,True
+B,1,4,1-18,잔여율 < 30% 거부,True
+B,1,4,1-19,잔여율 30~50% 승인 필요,False
+B,1,4,1-20,보관유형 호환 체크,True
+B,1,4,1-21,HAZMAT zone 체크,True
+B,1,4,1-22,실사 동결 로케이션 거부,False
+B,1,4,1-23,페널티 기록 (OVER_DELIVERY),True
+B,1,4,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+B,1,4,1-25,페널티 3회 → PO hold,True
+B,1,5,1-1,PO 연결 필수,True
+B,1,5,1-2,2단계 프로세스,True
+B,1,5,1-3,초과입고 제한 로직,True
+B,1,5,1-4,초과입고 거부 응답,True
+B,1,5,1-5,재고 반영 시점 (confirmed),True
+B,1,5,1-6,유통기한 필수 체크,False
+B,1,5,1-7,유통기한 비관리 처리,True
+B,1,5,1-8,received_qty 누적,True
+B,1,5,1-9,PO 상태 completed,True
+B,1,5,1-10,PO 상태 partial,True
+B,1,5,1-11,location.current_qty 갱신,True
+B,1,5,1-12,입고 거부 시 무변동,True
+B,1,5,1-13,카테고리별 초과율 차등,True
+B,1,5,1-14,HAZMAT 0% 예외 없음,True
+B,1,5,1-15,PO유형 가중치,True
+B,1,5,1-16,성수기 가중치,True
+B,1,5,1-17,manufacture_date 필수,True
+B,1,5,1-18,잔여율 < 30% 거부,True
+B,1,5,1-19,잔여율 30~50% 승인 필요,True
+B,1,5,1-20,보관유형 호환 체크,True
+B,1,5,1-21,HAZMAT zone 체크,True
+B,1,5,1-22,실사 동결 로케이션 거부,True
+B,1,5,1-23,페널티 기록 (OVER_DELIVERY),True
+B,1,5,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+B,1,5,1-25,페널티 3회 → PO hold,True
+B,2,1,2-1,FIFO 적용,True
+B,2,1,2-2,FEFO 우선 적용,True
+B,2,1,2-3,FEFO 동률 시 FIFO,True
+B,2,1,2-4,분할 피킹,True
+B,2,1,2-5,만료 재고 제외,True
+B,2,1,2-6,부분출고,True
+B,2,1,2-7,백오더 자동 생성,True
+B,2,1,2-8,picked_qty 기록,True
+B,2,1,2-9,부분출고 상태 partial,True
+B,2,1,2-10,전량 백오더,True
+B,2,1,2-11,inventory.quantity 차감,True
+B,2,1,2-12,location.current_qty 차감,True
+B,2,1,2-13,피킹 상세 반환,True
+B,2,1,2-14,출고 완료 shipped,True
+B,2,1,2-15,is_expired 재고 제외,True
+B,2,1,2-16,실사 동결 로케이션 제외,True
+B,2,1,2-17,잔여율 < 30% 최우선 출고,True
+B,2,1,2-18,잔여율 < 10% 출고 불가,False
+B,2,1,2-19,HAZMAT zone 전용 피킹,True
+B,2,1,2-20,max_pick_qty 제한,True
+B,2,1,2-21,HAZMAT+FRESH 분리 출고,True
+B,2,1,2-22,부분출고 70% 기준,True
+B,2,1,2-23,긴급발주 트리거 (30~70%),True
+B,2,1,2-24,전량 백오더 (< 30%),True
+B,2,1,2-25,안전재고 체크,True
+B,2,1,2-26,안전재고 트리거 기록,True
+B,2,1,2-27,보관유형 불일치 경고,True
+B,2,1,2-28,피킹 응답에 backorder 포함,True
+B,2,2,2-1,FIFO 적용,True
+B,2,2,2-2,FEFO 우선 적용,True
+B,2,2,2-3,FEFO 동률 시 FIFO,True
+B,2,2,2-4,분할 피킹,True
+B,2,2,2-5,만료 재고 제외,True
+B,2,2,2-6,부분출고,True
+B,2,2,2-7,백오더 자동 생성,True
+B,2,2,2-8,picked_qty 기록,True
+B,2,2,2-9,부분출고 상태 partial,True
+B,2,2,2-10,전량 백오더,True
+B,2,2,2-11,inventory.quantity 차감,True
+B,2,2,2-12,location.current_qty 차감,True
+B,2,2,2-13,피킹 상세 반환,True
+B,2,2,2-14,출고 완료 shipped,True
+B,2,2,2-15,is_expired 재고 제외,True
+B,2,2,2-16,실사 동결 로케이션 제외,True
+B,2,2,2-17,잔여율 < 30% 최우선 출고,True
+B,2,2,2-18,잔여율 < 10% 출고 불가,False
+B,2,2,2-19,HAZMAT zone 전용 피킹,True
+B,2,2,2-20,max_pick_qty 제한,True
+B,2,2,2-21,HAZMAT+FRESH 분리 출고,True
+B,2,2,2-22,부분출고 70% 기준,True
+B,2,2,2-23,긴급발주 트리거 (30~70%),True
+B,2,2,2-24,전량 백오더 (< 30%),True
+B,2,2,2-25,안전재고 체크,True
+B,2,2,2-26,안전재고 트리거 기록,True
+B,2,2,2-27,보관유형 불일치 경고,True
+B,2,2,2-28,피킹 응답에 backorder 포함,True
+B,2,3,2-1,FIFO 적용,True
+B,2,3,2-2,FEFO 우선 적용,True
+B,2,3,2-3,FEFO 동률 시 FIFO,True
+B,2,3,2-4,분할 피킹,True
+B,2,3,2-5,만료 재고 제외,True
+B,2,3,2-6,부분출고,True
+B,2,3,2-7,백오더 자동 생성,True
+B,2,3,2-8,picked_qty 기록,True
+B,2,3,2-9,부분출고 상태 partial,True
+B,2,3,2-10,전량 백오더,True
+B,2,3,2-11,inventory.quantity 차감,True
+B,2,3,2-12,location.current_qty 차감,True
+B,2,3,2-13,피킹 상세 반환,True
+B,2,3,2-14,출고 완료 shipped,True
+B,2,3,2-15,is_expired 재고 제외,True
+B,2,3,2-16,실사 동결 로케이션 제외,True
+B,2,3,2-17,잔여율 < 30% 최우선 출고,True
+B,2,3,2-18,잔여율 < 10% 출고 불가,False
+B,2,3,2-19,HAZMAT zone 전용 피킹,True
+B,2,3,2-20,max_pick_qty 제한,True
+B,2,3,2-21,HAZMAT+FRESH 분리 출고,True
+B,2,3,2-22,부분출고 70% 기준,True
+B,2,3,2-23,긴급발주 트리거 (30~70%),True
+B,2,3,2-24,전량 백오더 (< 30%),True
+B,2,3,2-25,안전재고 체크,True
+B,2,3,2-26,안전재고 트리거 기록,True
+B,2,3,2-27,보관유형 불일치 경고,True
+B,2,3,2-28,피킹 응답에 backorder 포함,True
+B,2,4,2-1,FIFO 적용,True
+B,2,4,2-2,FEFO 우선 적용,True
+B,2,4,2-3,FEFO 동률 시 FIFO,True
+B,2,4,2-4,분할 피킹,True
+B,2,4,2-5,만료 재고 제외,True
+B,2,4,2-6,부분출고,True
+B,2,4,2-7,백오더 자동 생성,True
+B,2,4,2-8,picked_qty 기록,True
+B,2,4,2-9,부분출고 상태 partial,True
+B,2,4,2-10,전량 백오더,True
+B,2,4,2-11,inventory.quantity 차감,True
+B,2,4,2-12,location.current_qty 차감,True
+B,2,4,2-13,피킹 상세 반환,True
+B,2,4,2-14,출고 완료 shipped,True
+B,2,4,2-15,is_expired 재고 제외,True
+B,2,4,2-16,실사 동결 로케이션 제외,True
+B,2,4,2-17,잔여율 < 30% 최우선 출고,True
+B,2,4,2-18,잔여율 < 10% 출고 불가,False
+B,2,4,2-19,HAZMAT zone 전용 피킹,True
+B,2,4,2-20,max_pick_qty 제한,True
+B,2,4,2-21,HAZMAT+FRESH 분리 출고,True
+B,2,4,2-22,부분출고 70% 기준,True
+B,2,4,2-23,긴급발주 트리거 (30~70%),True
+B,2,4,2-24,전량 백오더 (< 30%),True
+B,2,4,2-25,안전재고 체크,True
+B,2,4,2-26,안전재고 트리거 기록,True
+B,2,4,2-27,보관유형 불일치 경고,True
+B,2,4,2-28,피킹 응답에 backorder 포함,True
+B,2,5,2-1,FIFO 적용,True
+B,2,5,2-2,FEFO 우선 적용,True
+B,2,5,2-3,FEFO 동률 시 FIFO,True
+B,2,5,2-4,분할 피킹,True
+B,2,5,2-5,만료 재고 제외,True
+B,2,5,2-6,부분출고,True
+B,2,5,2-7,백오더 자동 생성,True
+B,2,5,2-8,picked_qty 기록,True
+B,2,5,2-9,부분출고 상태 partial,True
+B,2,5,2-10,전량 백오더,True
+B,2,5,2-11,inventory.quantity 차감,True
+B,2,5,2-12,location.current_qty 차감,True
+B,2,5,2-13,피킹 상세 반환,True
+B,2,5,2-14,출고 완료 shipped,True
+B,2,5,2-15,is_expired 재고 제외,True
+B,2,5,2-16,실사 동결 로케이션 제외,True
+B,2,5,2-17,잔여율 < 30% 최우선 출고,True
+B,2,5,2-18,잔여율 < 10% 출고 불가,False
+B,2,5,2-19,HAZMAT zone 전용 피킹,True
+B,2,5,2-20,max_pick_qty 제한,True
+B,2,5,2-21,HAZMAT+FRESH 분리 출고,True
+B,2,5,2-22,부분출고 70% 기준,True
+B,2,5,2-23,긴급발주 트리거 (30~70%),True
+B,2,5,2-24,전량 백오더 (< 30%),True
+B,2,5,2-25,안전재고 체크,True
+B,2,5,2-26,안전재고 트리거 기록,True
+B,2,5,2-27,보관유형 불일치 경고,True
+B,2,5,2-28,피킹 응답에 backorder 포함,True
+B,3,1,3-1,단일 트랜잭션,True
+B,3,1,3-2,롤백 처리,True
+B,3,1,3-3,동일 로케이션 거부,True
+B,3,1,3-4,출발지 재고 부족 체크,True
+B,3,1,3-5,도착지 용량 체크,True
+B,3,1,3-6,출발지 location.current_qty 차감,True
+B,3,1,3-7,도착지 location.current_qty 증가,True
+B,3,1,3-8,기존 레코드 병합,True
+B,3,1,3-9,received_at 보존,True
+B,3,1,3-10,이력 기록,True
+B,3,1,3-11,실사 동결 체크 (출발지),True
+B,3,1,3-12,실사 동결 체크 (도착지),True
+B,3,1,3-13,보관유형 호환 체크,True
+B,3,1,3-14,HAZMAT zone 체크,True
+B,3,1,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+B,3,1,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+B,3,1,3-17,유통기한 < 10% 이동 제한,True
+B,3,1,3-18,유통기한 만료 이동 불가,True
+B,3,1,3-19,대량 이동 승인 (80%),True
+B,3,1,3-20,안전재고 체크,True
+B,3,2,3-1,단일 트랜잭션,True
+B,3,2,3-2,롤백 처리,True
+B,3,2,3-3,동일 로케이션 거부,True
+B,3,2,3-4,출발지 재고 부족 체크,True
+B,3,2,3-5,도착지 용량 체크,True
+B,3,2,3-6,출발지 location.current_qty 차감,True
+B,3,2,3-7,도착지 location.current_qty 증가,True
+B,3,2,3-8,기존 레코드 병합,True
+B,3,2,3-9,received_at 보존,True
+B,3,2,3-10,이력 기록,True
+B,3,2,3-11,실사 동결 체크 (출발지),True
+B,3,2,3-12,실사 동결 체크 (도착지),True
+B,3,2,3-13,보관유형 호환 체크,True
+B,3,2,3-14,HAZMAT zone 체크,True
+B,3,2,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+B,3,2,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+B,3,2,3-17,유통기한 < 10% 이동 제한,True
+B,3,2,3-18,유통기한 만료 이동 불가,True
+B,3,2,3-19,대량 이동 승인 (80%),True
+B,3,2,3-20,안전재고 체크,True
+B,3,3,3-1,단일 트랜잭션,True
+B,3,3,3-2,롤백 처리,True
+B,3,3,3-3,동일 로케이션 거부,True
+B,3,3,3-4,출발지 재고 부족 체크,True
+B,3,3,3-5,도착지 용량 체크,True
+B,3,3,3-6,출발지 location.current_qty 차감,True
+B,3,3,3-7,도착지 location.current_qty 증가,True
+B,3,3,3-8,기존 레코드 병합,True
+B,3,3,3-9,received_at 보존,True
+B,3,3,3-10,이력 기록,True
+B,3,3,3-11,실사 동결 체크 (출발지),True
+B,3,3,3-12,실사 동결 체크 (도착지),True
+B,3,3,3-13,보관유형 호환 체크,True
+B,3,3,3-14,HAZMAT zone 체크,True
+B,3,3,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+B,3,3,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+B,3,3,3-17,유통기한 < 10% 이동 제한,True
+B,3,3,3-18,유통기한 만료 이동 불가,True
+B,3,3,3-19,대량 이동 승인 (80%),True
+B,3,3,3-20,안전재고 체크,True
+B,3,4,3-1,단일 트랜잭션,True
+B,3,4,3-2,롤백 처리,True
+B,3,4,3-3,동일 로케이션 거부,True
+B,3,4,3-4,출발지 재고 부족 체크,True
+B,3,4,3-5,도착지 용량 체크,True
+B,3,4,3-6,출발지 location.current_qty 차감,True
+B,3,4,3-7,도착지 location.current_qty 증가,True
+B,3,4,3-8,기존 레코드 병합,True
+B,3,4,3-9,received_at 보존,True
+B,3,4,3-10,이력 기록,True
+B,3,4,3-11,실사 동결 체크 (출발지),True
+B,3,4,3-12,실사 동결 체크 (도착지),True
+B,3,4,3-13,보관유형 호환 체크,True
+B,3,4,3-14,HAZMAT zone 체크,True
+B,3,4,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+B,3,4,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+B,3,4,3-17,유통기한 < 10% 이동 제한,True
+B,3,4,3-18,유통기한 만료 이동 불가,True
+B,3,4,3-19,대량 이동 승인 (80%),True
+B,3,4,3-20,안전재고 체크,True
+B,3,5,3-1,단일 트랜잭션,True
+B,3,5,3-2,롤백 처리,True
+B,3,5,3-3,동일 로케이션 거부,True
+B,3,5,3-4,출발지 재고 부족 체크,True
+B,3,5,3-5,도착지 용량 체크,True
+B,3,5,3-6,출발지 location.current_qty 차감,True
+B,3,5,3-7,도착지 location.current_qty 증가,True
+B,3,5,3-8,기존 레코드 병합,True
+B,3,5,3-9,received_at 보존,True
+B,3,5,3-10,이력 기록,True
+B,3,5,3-11,실사 동결 체크 (출발지),True
+B,3,5,3-12,실사 동결 체크 (도착지),True
+B,3,5,3-13,보관유형 호환 체크,True
+B,3,5,3-14,HAZMAT zone 체크,True
+B,3,5,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+B,3,5,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+B,3,5,3-17,유통기한 < 10% 이동 제한,True
+B,3,5,3-18,유통기한 만료 이동 불가,True
+B,3,5,3-19,대량 이동 승인 (80%),True
+B,3,5,3-20,안전재고 체크,True
+B,4,1,4-1,reason 필수,True
+B,4,1,4-2,차이 비율 계산,True
+B,4,1,4-3,자동 승인 로직,True
+B,4,1,4-4,자동 승인 즉시 반영,True
+B,4,1,4-5,>5% 승인 대기,True
+B,4,1,4-6,승인 전 미반영,True
+B,4,1,4-7,system_qty=0 승인 필요,True
+B,4,1,4-8,승인 후 반영,True
+B,4,1,4-9,거부 시 무변동,True
+B,4,1,4-10,location.current_qty 갱신,True
+B,4,1,4-11,DELETE 불가,True
+B,4,1,4-12,핵심 필드 UPDATE 불가,True
+B,4,1,4-13,GENERAL 임계치 ±5%,True
+B,4,1,4-14,FRESH 임계치 ±3%,True
+B,4,1,4-15,HAZMAT 임계치 ±1%,True
+B,4,1,4-16,HIGH_VALUE 자동승인 없음,True
+B,4,1,4-17,연속 조정 감시 조회,True
+B,4,1,4-18,연속 조정 → 승인 격상,True
+B,4,1,4-19,연속 조정 태그 추가,True
+B,4,1,4-20,HIGH_VALUE audit_logs 기록,True
+B,4,1,4-21,HIGH_VALUE 재실사 권고,True
+B,4,1,4-22,실사 시작 → is_frozen 설정,True
+B,4,1,4-23,실사 완료 → is_frozen 해제,True
+B,4,1,4-24,안전재고 체크,True
+B,4,1,4-25,안전재고 트리거 기록,True
+B,4,2,4-1,reason 필수,True
+B,4,2,4-2,차이 비율 계산,True
+B,4,2,4-3,자동 승인 로직,True
+B,4,2,4-4,자동 승인 즉시 반영,True
+B,4,2,4-5,>5% 승인 대기,True
+B,4,2,4-6,승인 전 미반영,True
+B,4,2,4-7,system_qty=0 승인 필요,True
+B,4,2,4-8,승인 후 반영,True
+B,4,2,4-9,거부 시 무변동,True
+B,4,2,4-10,location.current_qty 갱신,True
+B,4,2,4-11,DELETE 불가,True
+B,4,2,4-12,핵심 필드 UPDATE 불가,False
+B,4,2,4-13,GENERAL 임계치 ±5%,True
+B,4,2,4-14,FRESH 임계치 ±3%,True
+B,4,2,4-15,HAZMAT 임계치 ±1%,True
+B,4,2,4-16,HIGH_VALUE 자동승인 없음,True
+B,4,2,4-17,연속 조정 감시 조회,True
+B,4,2,4-18,연속 조정 → 승인 격상,True
+B,4,2,4-19,연속 조정 태그 추가,True
+B,4,2,4-20,HIGH_VALUE audit_logs 기록,True
+B,4,2,4-21,HIGH_VALUE 재실사 권고,True
+B,4,2,4-22,실사 시작 → is_frozen 설정,True
+B,4,2,4-23,실사 완료 → is_frozen 해제,True
+B,4,2,4-24,안전재고 체크,True
+B,4,2,4-25,안전재고 트리거 기록,True
+B,4,3,4-1,reason 필수,True
+B,4,3,4-2,차이 비율 계산,True
+B,4,3,4-3,자동 승인 로직,True
+B,4,3,4-4,자동 승인 즉시 반영,True
+B,4,3,4-5,>5% 승인 대기,True
+B,4,3,4-6,승인 전 미반영,True
+B,4,3,4-7,system_qty=0 승인 필요,True
+B,4,3,4-8,승인 후 반영,True
+B,4,3,4-9,거부 시 무변동,True
+B,4,3,4-10,location.current_qty 갱신,True
+B,4,3,4-11,DELETE 불가,True
+B,4,3,4-12,핵심 필드 UPDATE 불가,False
+B,4,3,4-13,GENERAL 임계치 ±5%,True
+B,4,3,4-14,FRESH 임계치 ±3%,True
+B,4,3,4-15,HAZMAT 임계치 ±1%,True
+B,4,3,4-16,HIGH_VALUE 자동승인 없음,True
+B,4,3,4-17,연속 조정 감시 조회,True
+B,4,3,4-18,연속 조정 → 승인 격상,True
+B,4,3,4-19,연속 조정 태그 추가,True
+B,4,3,4-20,HIGH_VALUE audit_logs 기록,True
+B,4,3,4-21,HIGH_VALUE 재실사 권고,False
+B,4,3,4-22,실사 시작 → is_frozen 설정,True
+B,4,3,4-23,실사 완료 → is_frozen 해제,True
+B,4,3,4-24,안전재고 체크,True
+B,4,3,4-25,안전재고 트리거 기록,True
+B,4,4,4-1,reason 필수,True
+B,4,4,4-2,차이 비율 계산,True
+B,4,4,4-3,자동 승인 로직,True
+B,4,4,4-4,자동 승인 즉시 반영,True
+B,4,4,4-5,>5% 승인 대기,True
+B,4,4,4-6,승인 전 미반영,True
+B,4,4,4-7,system_qty=0 승인 필요,True
+B,4,4,4-8,승인 후 반영,True
+B,4,4,4-9,거부 시 무변동,True
+B,4,4,4-10,location.current_qty 갱신,True
+B,4,4,4-11,DELETE 불가,True
+B,4,4,4-12,핵심 필드 UPDATE 불가,False
+B,4,4,4-13,GENERAL 임계치 ±5%,True
+B,4,4,4-14,FRESH 임계치 ±3%,True
+B,4,4,4-15,HAZMAT 임계치 ±1%,True
+B,4,4,4-16,HIGH_VALUE 자동승인 없음,True
+B,4,4,4-17,연속 조정 감시 조회,True
+B,4,4,4-18,연속 조정 → 승인 격상,True
+B,4,4,4-19,연속 조정 태그 추가,True
+B,4,4,4-20,HIGH_VALUE audit_logs 기록,True
+B,4,4,4-21,HIGH_VALUE 재실사 권고,False
+B,4,4,4-22,실사 시작 → is_frozen 설정,True
+B,4,4,4-23,실사 완료 → is_frozen 해제,True
+B,4,4,4-24,안전재고 체크,True
+B,4,4,4-25,안전재고 트리거 기록,True
+B,4,5,4-1,reason 필수,True
+B,4,5,4-2,차이 비율 계산,True
+B,4,5,4-3,자동 승인 로직,True
+B,4,5,4-4,자동 승인 즉시 반영,True
+B,4,5,4-5,>5% 승인 대기,True
+B,4,5,4-6,승인 전 미반영,True
+B,4,5,4-7,system_qty=0 승인 필요,True
+B,4,5,4-8,승인 후 반영,True
+B,4,5,4-9,거부 시 무변동,True
+B,4,5,4-10,location.current_qty 갱신,True
+B,4,5,4-11,DELETE 불가,True
+B,4,5,4-12,핵심 필드 UPDATE 불가,True
+B,4,5,4-13,GENERAL 임계치 ±5%,True
+B,4,5,4-14,FRESH 임계치 ±3%,True
+B,4,5,4-15,HAZMAT 임계치 ±1%,True
+B,4,5,4-16,HIGH_VALUE 자동승인 없음,True
+B,4,5,4-17,연속 조정 감시 조회,True
+B,4,5,4-18,연속 조정 → 승인 격상,True
+B,4,5,4-19,연속 조정 태그 추가,True
+B,4,5,4-20,HIGH_VALUE audit_logs 기록,True
+B,4,5,4-21,HIGH_VALUE 재실사 권고,True
+B,4,5,4-22,실사 시작 → is_frozen 설정,True
+B,4,5,4-23,실사 완료 → is_frozen 해제,True
+B,4,5,4-24,안전재고 체크,True
+B,4,5,4-25,안전재고 트리거 기록,True
+C,1,1,1-1,PO 연결 필수,True
+C,1,1,1-2,2단계 프로세스,True
+C,1,1,1-3,초과입고 제한 로직,True
+C,1,1,1-4,초과입고 거부 응답,True
+C,1,1,1-5,재고 반영 시점 (confirmed),True
+C,1,1,1-6,유통기한 필수 체크,True
+C,1,1,1-7,유통기한 비관리 처리,True
+C,1,1,1-8,received_qty 누적,True
+C,1,1,1-9,PO 상태 completed,True
+C,1,1,1-10,PO 상태 partial,True
+C,1,1,1-11,location.current_qty 갱신,True
+C,1,1,1-12,입고 거부 시 무변동,True
+C,1,1,1-13,카테고리별 초과율 차등,True
+C,1,1,1-14,HAZMAT 0% 예외 없음,True
+C,1,1,1-15,PO유형 가중치,True
+C,1,1,1-16,성수기 가중치,True
+C,1,1,1-17,manufacture_date 필수,True
+C,1,1,1-18,잔여율 < 30% 거부,True
+C,1,1,1-19,잔여율 30~50% 승인 필요,True
+C,1,1,1-20,보관유형 호환 체크,True
+C,1,1,1-21,HAZMAT zone 체크,True
+C,1,1,1-22,실사 동결 로케이션 거부,False
+C,1,1,1-23,페널티 기록 (OVER_DELIVERY),True
+C,1,1,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+C,1,1,1-25,페널티 3회 → PO hold,True
+C,1,2,1-1,PO 연결 필수,True
+C,1,2,1-2,2단계 프로세스,True
+C,1,2,1-3,초과입고 제한 로직,True
+C,1,2,1-4,초과입고 거부 응답,True
+C,1,2,1-5,재고 반영 시점 (confirmed),True
+C,1,2,1-6,유통기한 필수 체크,False
+C,1,2,1-7,유통기한 비관리 처리,True
+C,1,2,1-8,received_qty 누적,True
+C,1,2,1-9,PO 상태 completed,True
+C,1,2,1-10,PO 상태 partial,True
+C,1,2,1-11,location.current_qty 갱신,True
+C,1,2,1-12,입고 거부 시 무변동,True
+C,1,2,1-13,카테고리별 초과율 차등,True
+C,1,2,1-14,HAZMAT 0% 예외 없음,True
+C,1,2,1-15,PO유형 가중치,True
+C,1,2,1-16,성수기 가중치,True
+C,1,2,1-17,manufacture_date 필수,True
+C,1,2,1-18,잔여율 < 30% 거부,True
+C,1,2,1-19,잔여율 30~50% 승인 필요,False
+C,1,2,1-20,보관유형 호환 체크,True
+C,1,2,1-21,HAZMAT zone 체크,True
+C,1,2,1-22,실사 동결 로케이션 거부,False
+C,1,2,1-23,페널티 기록 (OVER_DELIVERY),True
+C,1,2,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+C,1,2,1-25,페널티 3회 → PO hold,True
+C,1,3,1-1,PO 연결 필수,True
+C,1,3,1-2,2단계 프로세스,True
+C,1,3,1-3,초과입고 제한 로직,True
+C,1,3,1-4,초과입고 거부 응답,True
+C,1,3,1-5,재고 반영 시점 (confirmed),True
+C,1,3,1-6,유통기한 필수 체크,True
+C,1,3,1-7,유통기한 비관리 처리,True
+C,1,3,1-8,received_qty 누적,True
+C,1,3,1-9,PO 상태 completed,True
+C,1,3,1-10,PO 상태 partial,True
+C,1,3,1-11,location.current_qty 갱신,True
+C,1,3,1-12,입고 거부 시 무변동,True
+C,1,3,1-13,카테고리별 초과율 차등,True
+C,1,3,1-14,HAZMAT 0% 예외 없음,True
+C,1,3,1-15,PO유형 가중치,True
+C,1,3,1-16,성수기 가중치,True
+C,1,3,1-17,manufacture_date 필수,True
+C,1,3,1-18,잔여율 < 30% 거부,True
+C,1,3,1-19,잔여율 30~50% 승인 필요,True
+C,1,3,1-20,보관유형 호환 체크,True
+C,1,3,1-21,HAZMAT zone 체크,True
+C,1,3,1-22,실사 동결 로케이션 거부,True
+C,1,3,1-23,페널티 기록 (OVER_DELIVERY),True
+C,1,3,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+C,1,3,1-25,페널티 3회 → PO hold,True
+C,1,4,1-1,PO 연결 필수,True
+C,1,4,1-2,2단계 프로세스,True
+C,1,4,1-3,초과입고 제한 로직,True
+C,1,4,1-4,초과입고 거부 응답,True
+C,1,4,1-5,재고 반영 시점 (confirmed),True
+C,1,4,1-6,유통기한 필수 체크,True
+C,1,4,1-7,유통기한 비관리 처리,True
+C,1,4,1-8,received_qty 누적,True
+C,1,4,1-9,PO 상태 completed,True
+C,1,4,1-10,PO 상태 partial,True
+C,1,4,1-11,location.current_qty 갱신,True
+C,1,4,1-12,입고 거부 시 무변동,True
+C,1,4,1-13,카테고리별 초과율 차등,True
+C,1,4,1-14,HAZMAT 0% 예외 없음,True
+C,1,4,1-15,PO유형 가중치,True
+C,1,4,1-16,성수기 가중치,True
+C,1,4,1-17,manufacture_date 필수,True
+C,1,4,1-18,잔여율 < 30% 거부,True
+C,1,4,1-19,잔여율 30~50% 승인 필요,True
+C,1,4,1-20,보관유형 호환 체크,True
+C,1,4,1-21,HAZMAT zone 체크,True
+C,1,4,1-22,실사 동결 로케이션 거부,True
+C,1,4,1-23,페널티 기록 (OVER_DELIVERY),True
+C,1,4,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+C,1,4,1-25,페널티 3회 → PO hold,True
+C,1,5,1-1,PO 연결 필수,True
+C,1,5,1-2,2단계 프로세스,True
+C,1,5,1-3,초과입고 제한 로직,True
+C,1,5,1-4,초과입고 거부 응답,True
+C,1,5,1-5,재고 반영 시점 (confirmed),True
+C,1,5,1-6,유통기한 필수 체크,True
+C,1,5,1-7,유통기한 비관리 처리,True
+C,1,5,1-8,received_qty 누적,True
+C,1,5,1-9,PO 상태 completed,True
+C,1,5,1-10,PO 상태 partial,True
+C,1,5,1-11,location.current_qty 갱신,True
+C,1,5,1-12,입고 거부 시 무변동,True
+C,1,5,1-13,카테고리별 초과율 차등,True
+C,1,5,1-14,HAZMAT 0% 예외 없음,True
+C,1,5,1-15,PO유형 가중치,True
+C,1,5,1-16,성수기 가중치,True
+C,1,5,1-17,manufacture_date 필수,True
+C,1,5,1-18,잔여율 < 30% 거부,True
+C,1,5,1-19,잔여율 30~50% 승인 필요,True
+C,1,5,1-20,보관유형 호환 체크,True
+C,1,5,1-21,HAZMAT zone 체크,True
+C,1,5,1-22,실사 동결 로케이션 거부,True
+C,1,5,1-23,페널티 기록 (OVER_DELIVERY),True
+C,1,5,1-24,페널티 기록 (SHORT_SHELF_LIFE),True
+C,1,5,1-25,페널티 3회 → PO hold,True
+C,2,1,2-1,FIFO 적용,True
+C,2,1,2-2,FEFO 우선 적용,True
+C,2,1,2-3,FEFO 동률 시 FIFO,True
+C,2,1,2-4,분할 피킹,True
+C,2,1,2-5,만료 재고 제외,True
+C,2,1,2-6,부분출고,True
+C,2,1,2-7,백오더 자동 생성,True
+C,2,1,2-8,picked_qty 기록,True
+C,2,1,2-9,부분출고 상태 partial,True
+C,2,1,2-10,전량 백오더,True
+C,2,1,2-11,inventory.quantity 차감,True
+C,2,1,2-12,location.current_qty 차감,True
+C,2,1,2-13,피킹 상세 반환,False
+C,2,1,2-14,출고 완료 shipped,True
+C,2,1,2-15,is_expired 재고 제외,True
+C,2,1,2-16,실사 동결 로케이션 제외,True
+C,2,1,2-17,잔여율 < 30% 최우선 출고,True
+C,2,1,2-18,잔여율 < 10% 출고 불가,False
+C,2,1,2-19,HAZMAT zone 전용 피킹,True
+C,2,1,2-20,max_pick_qty 제한,True
+C,2,1,2-21,HAZMAT+FRESH 분리 출고,True
+C,2,1,2-22,부분출고 70% 기준,True
+C,2,1,2-23,긴급발주 트리거 (30~70%),True
+C,2,1,2-24,전량 백오더 (< 30%),True
+C,2,1,2-25,안전재고 체크,True
+C,2,1,2-26,안전재고 트리거 기록,True
+C,2,1,2-27,보관유형 불일치 경고,True
+C,2,1,2-28,피킹 응답에 backorder 포함,True
+C,2,2,2-1,FIFO 적용,True
+C,2,2,2-2,FEFO 우선 적용,True
+C,2,2,2-3,FEFO 동률 시 FIFO,True
+C,2,2,2-4,분할 피킹,True
+C,2,2,2-5,만료 재고 제외,True
+C,2,2,2-6,부분출고,True
+C,2,2,2-7,백오더 자동 생성,True
+C,2,2,2-8,picked_qty 기록,True
+C,2,2,2-9,부분출고 상태 partial,True
+C,2,2,2-10,전량 백오더,True
+C,2,2,2-11,inventory.quantity 차감,True
+C,2,2,2-12,location.current_qty 차감,True
+C,2,2,2-13,피킹 상세 반환,False
+C,2,2,2-14,출고 완료 shipped,True
+C,2,2,2-15,is_expired 재고 제외,True
+C,2,2,2-16,실사 동결 로케이션 제외,True
+C,2,2,2-17,잔여율 < 30% 최우선 출고,True
+C,2,2,2-18,잔여율 < 10% 출고 불가,True
+C,2,2,2-19,HAZMAT zone 전용 피킹,True
+C,2,2,2-20,max_pick_qty 제한,True
+C,2,2,2-21,HAZMAT+FRESH 분리 출고,True
+C,2,2,2-22,부분출고 70% 기준,True
+C,2,2,2-23,긴급발주 트리거 (30~70%),True
+C,2,2,2-24,전량 백오더 (< 30%),True
+C,2,2,2-25,안전재고 체크,True
+C,2,2,2-26,안전재고 트리거 기록,True
+C,2,2,2-27,보관유형 불일치 경고,True
+C,2,2,2-28,피킹 응답에 backorder 포함,True
+C,2,3,2-1,FIFO 적용,True
+C,2,3,2-2,FEFO 우선 적용,True
+C,2,3,2-3,FEFO 동률 시 FIFO,True
+C,2,3,2-4,분할 피킹,True
+C,2,3,2-5,만료 재고 제외,True
+C,2,3,2-6,부분출고,True
+C,2,3,2-7,백오더 자동 생성,True
+C,2,3,2-8,picked_qty 기록,True
+C,2,3,2-9,부분출고 상태 partial,True
+C,2,3,2-10,전량 백오더,True
+C,2,3,2-11,inventory.quantity 차감,True
+C,2,3,2-12,location.current_qty 차감,True
+C,2,3,2-13,피킹 상세 반환,False
+C,2,3,2-14,출고 완료 shipped,True
+C,2,3,2-15,is_expired 재고 제외,True
+C,2,3,2-16,실사 동결 로케이션 제외,True
+C,2,3,2-17,잔여율 < 30% 최우선 출고,True
+C,2,3,2-18,잔여율 < 10% 출고 불가,False
+C,2,3,2-19,HAZMAT zone 전용 피킹,True
+C,2,3,2-20,max_pick_qty 제한,True
+C,2,3,2-21,HAZMAT+FRESH 분리 출고,True
+C,2,3,2-22,부분출고 70% 기준,True
+C,2,3,2-23,긴급발주 트리거 (30~70%),True
+C,2,3,2-24,전량 백오더 (< 30%),True
+C,2,3,2-25,안전재고 체크,True
+C,2,3,2-26,안전재고 트리거 기록,True
+C,2,3,2-27,보관유형 불일치 경고,True
+C,2,3,2-28,피킹 응답에 backorder 포함,True
+C,2,4,2-1,FIFO 적용,True
+C,2,4,2-2,FEFO 우선 적용,True
+C,2,4,2-3,FEFO 동률 시 FIFO,True
+C,2,4,2-4,분할 피킹,True
+C,2,4,2-5,만료 재고 제외,True
+C,2,4,2-6,부분출고,True
+C,2,4,2-7,백오더 자동 생성,True
+C,2,4,2-8,picked_qty 기록,True
+C,2,4,2-9,부분출고 상태 partial,True
+C,2,4,2-10,전량 백오더,True
+C,2,4,2-11,inventory.quantity 차감,True
+C,2,4,2-12,location.current_qty 차감,True
+C,2,4,2-13,피킹 상세 반환,False
+C,2,4,2-14,출고 완료 shipped,True
+C,2,4,2-15,is_expired 재고 제외,True
+C,2,4,2-16,실사 동결 로케이션 제외,True
+C,2,4,2-17,잔여율 < 30% 최우선 출고,True
+C,2,4,2-18,잔여율 < 10% 출고 불가,False
+C,2,4,2-19,HAZMAT zone 전용 피킹,True
+C,2,4,2-20,max_pick_qty 제한,True
+C,2,4,2-21,HAZMAT+FRESH 분리 출고,True
+C,2,4,2-22,부분출고 70% 기준,True
+C,2,4,2-23,긴급발주 트리거 (30~70%),True
+C,2,4,2-24,전량 백오더 (< 30%),True
+C,2,4,2-25,안전재고 체크,True
+C,2,4,2-26,안전재고 트리거 기록,True
+C,2,4,2-27,보관유형 불일치 경고,True
+C,2,4,2-28,피킹 응답에 backorder 포함,True
+C,2,5,2-1,FIFO 적용,True
+C,2,5,2-2,FEFO 우선 적용,True
+C,2,5,2-3,FEFO 동률 시 FIFO,True
+C,2,5,2-4,분할 피킹,True
+C,2,5,2-5,만료 재고 제외,True
+C,2,5,2-6,부분출고,True
+C,2,5,2-7,백오더 자동 생성,True
+C,2,5,2-8,picked_qty 기록,True
+C,2,5,2-9,부분출고 상태 partial,True
+C,2,5,2-10,전량 백오더,True
+C,2,5,2-11,inventory.quantity 차감,True
+C,2,5,2-12,location.current_qty 차감,True
+C,2,5,2-13,피킹 상세 반환,False
+C,2,5,2-14,출고 완료 shipped,True
+C,2,5,2-15,is_expired 재고 제외,True
+C,2,5,2-16,실사 동결 로케이션 제외,True
+C,2,5,2-17,잔여율 < 30% 최우선 출고,True
+C,2,5,2-18,잔여율 < 10% 출고 불가,False
+C,2,5,2-19,HAZMAT zone 전용 피킹,True
+C,2,5,2-20,max_pick_qty 제한,True
+C,2,5,2-21,HAZMAT+FRESH 분리 출고,True
+C,2,5,2-22,부분출고 70% 기준,True
+C,2,5,2-23,긴급발주 트리거 (30~70%),True
+C,2,5,2-24,전량 백오더 (< 30%),True
+C,2,5,2-25,안전재고 체크,True
+C,2,5,2-26,안전재고 트리거 기록,True
+C,2,5,2-27,보관유형 불일치 경고,True
+C,2,5,2-28,피킹 응답에 backorder 포함,True
+C,3,1,3-1,단일 트랜잭션,True
+C,3,1,3-2,롤백 처리,True
+C,3,1,3-3,동일 로케이션 거부,True
+C,3,1,3-4,출발지 재고 부족 체크,True
+C,3,1,3-5,도착지 용량 체크,True
+C,3,1,3-6,출발지 location.current_qty 차감,True
+C,3,1,3-7,도착지 location.current_qty 증가,True
+C,3,1,3-8,기존 레코드 병합,True
+C,3,1,3-9,received_at 보존,True
+C,3,1,3-10,이력 기록,True
+C,3,1,3-11,실사 동결 체크 (출발지),True
+C,3,1,3-12,실사 동결 체크 (도착지),True
+C,3,1,3-13,보관유형 호환 체크,True
+C,3,1,3-14,HAZMAT zone 체크,True
+C,3,1,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+C,3,1,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+C,3,1,3-17,유통기한 < 10% 이동 제한,False
+C,3,1,3-18,유통기한 만료 이동 불가,True
+C,3,1,3-19,대량 이동 승인 (80%),True
+C,3,1,3-20,안전재고 체크,True
+C,3,2,3-1,단일 트랜잭션,True
+C,3,2,3-2,롤백 처리,True
+C,3,2,3-3,동일 로케이션 거부,True
+C,3,2,3-4,출발지 재고 부족 체크,False
+C,3,2,3-5,도착지 용량 체크,True
+C,3,2,3-6,출발지 location.current_qty 차감,True
+C,3,2,3-7,도착지 location.current_qty 증가,True
+C,3,2,3-8,기존 레코드 병합,True
+C,3,2,3-9,received_at 보존,True
+C,3,2,3-10,이력 기록,True
+C,3,2,3-11,실사 동결 체크 (출발지),True
+C,3,2,3-12,실사 동결 체크 (도착지),True
+C,3,2,3-13,보관유형 호환 체크,True
+C,3,2,3-14,HAZMAT zone 체크,True
+C,3,2,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+C,3,2,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+C,3,2,3-17,유통기한 < 10% 이동 제한,True
+C,3,2,3-18,유통기한 만료 이동 불가,True
+C,3,2,3-19,대량 이동 승인 (80%),True
+C,3,2,3-20,안전재고 체크,True
+C,3,3,3-1,단일 트랜잭션,True
+C,3,3,3-2,롤백 처리,True
+C,3,3,3-3,동일 로케이션 거부,True
+C,3,3,3-4,출발지 재고 부족 체크,True
+C,3,3,3-5,도착지 용량 체크,True
+C,3,3,3-6,출발지 location.current_qty 차감,True
+C,3,3,3-7,도착지 location.current_qty 증가,True
+C,3,3,3-8,기존 레코드 병합,True
+C,3,3,3-9,received_at 보존,True
+C,3,3,3-10,이력 기록,True
+C,3,3,3-11,실사 동결 체크 (출발지),True
+C,3,3,3-12,실사 동결 체크 (도착지),True
+C,3,3,3-13,보관유형 호환 체크,True
+C,3,3,3-14,HAZMAT zone 체크,True
+C,3,3,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+C,3,3,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+C,3,3,3-17,유통기한 < 10% 이동 제한,False
+C,3,3,3-18,유통기한 만료 이동 불가,True
+C,3,3,3-19,대량 이동 승인 (80%),True
+C,3,3,3-20,안전재고 체크,True
+C,3,4,3-1,단일 트랜잭션,True
+C,3,4,3-2,롤백 처리,True
+C,3,4,3-3,동일 로케이션 거부,True
+C,3,4,3-4,출발지 재고 부족 체크,True
+C,3,4,3-5,도착지 용량 체크,True
+C,3,4,3-6,출발지 location.current_qty 차감,True
+C,3,4,3-7,도착지 location.current_qty 증가,True
+C,3,4,3-8,기존 레코드 병합,True
+C,3,4,3-9,received_at 보존,True
+C,3,4,3-10,이력 기록,True
+C,3,4,3-11,실사 동결 체크 (출발지),True
+C,3,4,3-12,실사 동결 체크 (도착지),True
+C,3,4,3-13,보관유형 호환 체크,True
+C,3,4,3-14,HAZMAT zone 체크,True
+C,3,4,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+C,3,4,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+C,3,4,3-17,유통기한 < 10% 이동 제한,False
+C,3,4,3-18,유통기한 만료 이동 불가,True
+C,3,4,3-19,대량 이동 승인 (80%),True
+C,3,4,3-20,안전재고 체크,True
+C,3,5,3-1,단일 트랜잭션,True
+C,3,5,3-2,롤백 처리,True
+C,3,5,3-3,동일 로케이션 거부,True
+C,3,5,3-4,출발지 재고 부족 체크,True
+C,3,5,3-5,도착지 용량 체크,True
+C,3,5,3-6,출발지 location.current_qty 차감,True
+C,3,5,3-7,도착지 location.current_qty 증가,True
+C,3,5,3-8,기존 레코드 병합,True
+C,3,5,3-9,received_at 보존,True
+C,3,5,3-10,이력 기록,True
+C,3,5,3-11,실사 동결 체크 (출발지),True
+C,3,5,3-12,실사 동결 체크 (도착지),True
+C,3,5,3-13,보관유형 호환 체크,True
+C,3,5,3-14,HAZMAT zone 체크,True
+C,3,5,3-15,혼적 금지 (HAZMAT→비HAZMAT),True
+C,3,5,3-16,혼적 금지 (비HAZMAT→HAZMAT),True
+C,3,5,3-17,유통기한 < 10% 이동 제한,False
+C,3,5,3-18,유통기한 만료 이동 불가,True
+C,3,5,3-19,대량 이동 승인 (80%),True
+C,3,5,3-20,안전재고 체크,True
+C,4,1,4-1,reason 필수,True
+C,4,1,4-2,차이 비율 계산,True
+C,4,1,4-3,자동 승인 로직,True
+C,4,1,4-4,자동 승인 즉시 반영,True
+C,4,1,4-5,>5% 승인 대기,True
+C,4,1,4-6,승인 전 미반영,True
+C,4,1,4-7,system_qty=0 승인 필요,True
+C,4,1,4-8,승인 후 반영,True
+C,4,1,4-9,거부 시 무변동,True
+C,4,1,4-10,location.current_qty 갱신,True
+C,4,1,4-11,DELETE 불가,True
+C,4,1,4-12,핵심 필드 UPDATE 불가,True
+C,4,1,4-13,GENERAL 임계치 ±5%,True
+C,4,1,4-14,FRESH 임계치 ±3%,True
+C,4,1,4-15,HAZMAT 임계치 ±1%,True
+C,4,1,4-16,HIGH_VALUE 자동승인 없음,True
+C,4,1,4-17,연속 조정 감시 조회,True
+C,4,1,4-18,연속 조정 → 승인 격상,True
+C,4,1,4-19,연속 조정 태그 추가,True
+C,4,1,4-20,HIGH_VALUE audit_logs 기록,True
+C,4,1,4-21,HIGH_VALUE 재실사 권고,True
+C,4,1,4-22,실사 시작 → is_frozen 설정,True
+C,4,1,4-23,실사 완료 → is_frozen 해제,True
+C,4,1,4-24,안전재고 체크,True
+C,4,1,4-25,안전재고 트리거 기록,True
+C,4,2,4-1,reason 필수,True
+C,4,2,4-2,차이 비율 계산,True
+C,4,2,4-3,자동 승인 로직,True
+C,4,2,4-4,자동 승인 즉시 반영,True
+C,4,2,4-5,>5% 승인 대기,True
+C,4,2,4-6,승인 전 미반영,True
+C,4,2,4-7,system_qty=0 승인 필요,True
+C,4,2,4-8,승인 후 반영,True
+C,4,2,4-9,거부 시 무변동,True
+C,4,2,4-10,location.current_qty 갱신,True
+C,4,2,4-11,DELETE 불가,True
+C,4,2,4-12,핵심 필드 UPDATE 불가,True
+C,4,2,4-13,GENERAL 임계치 ±5%,True
+C,4,2,4-14,FRESH 임계치 ±3%,True
+C,4,2,4-15,HAZMAT 임계치 ±1%,True
+C,4,2,4-16,HIGH_VALUE 자동승인 없음,True
+C,4,2,4-17,연속 조정 감시 조회,True
+C,4,2,4-18,연속 조정 → 승인 격상,True
+C,4,2,4-19,연속 조정 태그 추가,True
+C,4,2,4-20,HIGH_VALUE audit_logs 기록,True
+C,4,2,4-21,HIGH_VALUE 재실사 권고,True
+C,4,2,4-22,실사 시작 → is_frozen 설정,True
+C,4,2,4-23,실사 완료 → is_frozen 해제,True
+C,4,2,4-24,안전재고 체크,True
+C,4,2,4-25,안전재고 트리거 기록,True
+C,4,3,4-1,reason 필수,True
+C,4,3,4-2,차이 비율 계산,True
+C,4,3,4-3,자동 승인 로직,True
+C,4,3,4-4,자동 승인 즉시 반영,True
+C,4,3,4-5,>5% 승인 대기,True
+C,4,3,4-6,승인 전 미반영,True
+C,4,3,4-7,system_qty=0 승인 필요,True
+C,4,3,4-8,승인 후 반영,True
+C,4,3,4-9,거부 시 무변동,True
+C,4,3,4-10,location.current_qty 갱신,True
+C,4,3,4-11,DELETE 불가,True
+C,4,3,4-12,핵심 필드 UPDATE 불가,False
+C,4,3,4-13,GENERAL 임계치 ±5%,True
+C,4,3,4-14,FRESH 임계치 ±3%,True
+C,4,3,4-15,HAZMAT 임계치 ±1%,True
+C,4,3,4-16,HIGH_VALUE 자동승인 없음,True
+C,4,3,4-17,연속 조정 감시 조회,True
+C,4,3,4-18,연속 조정 → 승인 격상,True
+C,4,3,4-19,연속 조정 태그 추가,True
+C,4,3,4-20,HIGH_VALUE audit_logs 기록,True
+C,4,3,4-21,HIGH_VALUE 재실사 권고,True
+C,4,3,4-22,실사 시작 → is_frozen 설정,True
+C,4,3,4-23,실사 완료 → is_frozen 해제,True
+C,4,3,4-24,안전재고 체크,True
+C,4,3,4-25,안전재고 트리거 기록,True
+C,4,4,4-1,reason 필수,True
+C,4,4,4-2,차이 비율 계산,True
+C,4,4,4-3,자동 승인 로직,True
+C,4,4,4-4,자동 승인 즉시 반영,True
+C,4,4,4-5,>5% 승인 대기,True
+C,4,4,4-6,승인 전 미반영,True
+C,4,4,4-7,system_qty=0 승인 필요,True
+C,4,4,4-8,승인 후 반영,True
+C,4,4,4-9,거부 시 무변동,True
+C,4,4,4-10,location.current_qty 갱신,True
+C,4,4,4-11,DELETE 불가,True
+C,4,4,4-12,핵심 필드 UPDATE 불가,True
+C,4,4,4-13,GENERAL 임계치 ±5%,True
+C,4,4,4-14,FRESH 임계치 ±3%,True
+C,4,4,4-15,HAZMAT 임계치 ±1%,True
+C,4,4,4-16,HIGH_VALUE 자동승인 없음,True
+C,4,4,4-17,연속 조정 감시 조회,True
+C,4,4,4-18,연속 조정 → 승인 격상,True
+C,4,4,4-19,연속 조정 태그 추가,True
+C,4,4,4-20,HIGH_VALUE audit_logs 기록,True
+C,4,4,4-21,HIGH_VALUE 재실사 권고,True
+C,4,4,4-22,실사 시작 → is_frozen 설정,True
+C,4,4,4-23,실사 완료 → is_frozen 해제,True
+C,4,4,4-24,안전재고 체크,True
+C,4,4,4-25,안전재고 트리거 기록,True
+C,4,5,4-1,reason 필수,True
+C,4,5,4-2,차이 비율 계산,True
+C,4,5,4-3,자동 승인 로직,True
+C,4,5,4-4,자동 승인 즉시 반영,True
+C,4,5,4-5,>5% 승인 대기,True
+C,4,5,4-6,승인 전 미반영,True
+C,4,5,4-7,system_qty=0 승인 필요,True
+C,4,5,4-8,승인 후 반영,True
+C,4,5,4-9,거부 시 무변동,True
+C,4,5,4-10,location.current_qty 갱신,True
+C,4,5,4-11,DELETE 불가,True
+C,4,5,4-12,핵심 필드 UPDATE 불가,True
+C,4,5,4-13,GENERAL 임계치 ±5%,True
+C,4,5,4-14,FRESH 임계치 ±3%,True
+C,4,5,4-15,HAZMAT 임계치 ±1%,True
+C,4,5,4-16,HIGH_VALUE 자동승인 없음,True
+C,4,5,4-17,연속 조정 감시 조회,True
+C,4,5,4-18,연속 조정 → 승인 격상,True
+C,4,5,4-19,연속 조정 태그 추가,True
+C,4,5,4-20,HIGH_VALUE audit_logs 기록,True
+C,4,5,4-21,HIGH_VALUE 재실사 권고,True
+C,4,5,4-22,실사 시작 → is_frozen 설정,True
+C,4,5,4-23,실사 완료 → is_frozen 해제,True
+C,4,5,4-24,안전재고 체크,True
+C,4,5,4-25,안전재고 트리거 기록,True

@@ -1,0 +1,22 @@
+package com.wms.inbound.repository;
+
+import com.wms.inbound.entity.PurchaseOrderLine;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
+@Repository
+public interface PurchaseOrderLineRepository extends JpaRepository<PurchaseOrderLine, UUID> {
+
+    @Query("SELECT pol FROM PurchaseOrderLine pol WHERE pol.purchaseOrder.poId = :poId " +
+           "AND pol.product.productId = :productId")
+    Optional<PurchaseOrderLine> findByPoAndProduct(@Param("poId") UUID poId, @Param("productId") UUID productId);
+
+    @Query("SELECT pol FROM PurchaseOrderLine pol WHERE pol.purchaseOrder.poId = :poId")
+    List<PurchaseOrderLine> findByPoId(@Param("poId") UUID poId);
+}

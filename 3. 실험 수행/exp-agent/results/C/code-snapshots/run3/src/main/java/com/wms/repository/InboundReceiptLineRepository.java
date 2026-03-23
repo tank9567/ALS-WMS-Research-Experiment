@@ -1,0 +1,14 @@
+package com.wms.repository;
+
+import com.wms.entity.InboundReceipt;
+import com.wms.entity.InboundReceiptLine;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+import java.util.UUID;
+
+@Repository
+public interface InboundReceiptLineRepository extends JpaRepository<InboundReceiptLine, UUID> {
+    List<InboundReceiptLine> findByInboundReceipt(InboundReceipt inboundReceipt);
+}

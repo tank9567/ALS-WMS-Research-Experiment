@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: wms-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wms_db
+    username: wms_user
+    password: wms_password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+    open-in-view: false
+
+  sql:
+    init:
+      mode: never
+
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-stacktrace: never
+
+logging:
+  level:
+    com.wms: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
